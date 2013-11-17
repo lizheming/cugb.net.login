@@ -1,0 +1,25 @@
+{
+	"name": "CUGB WebLogin",
+	"main": "index.html",
+	"description": "中国地质大学(北京)网关登陆器",
+	"version": "0.1.0",
+	"keywords": ["demo", "node-webkit", "CUGB", "Web", "Login"],
+	"window": {
+		"title": "网关登陆器",
+		"icon": "menu_icon.png",
+		"toolbar": false,
+		"frame" : true,
+		"width" : 500,
+		"height": 280,
+		"position": "mouse",
+		"min_width": 500,
+		"min_height": 280,
+		"max_width": 500,
+		"max_height": 280,
+		"resizable": false,
+		"show": true
+	},
+	"webkit": {
+		"plugin": true
+	}
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>中国地质大学(北京)网管登陆器</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+
+	<script src="js/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+		body {
+			padding:0 20px;
+		}
+		#login {
+			width: 45%;
+			float:left;
+		}
+		#logout {
+			width: 45%;
+			float:right;
+		}
+		.alert {
+			width:100%;
+			position:absolute;
+			top:0;
+			display:none;
+		}
+		.display {
+			display:block;
+		}
+	</style>
+</head>
+<body>
+	<form class="form-horizontal col-lg-12" role="form">
+		<div class="form-group">
+			<h2>中国地质大学(北京)网关登陆器</h2>
+		</div>
+		<div class="form-group">
+			<input class="form-control" type="text" placeholder="学号" name="username" value="" required/>
+		</div>
+		<div class="form-group">
+			<input class="form-control" type="password" placeholder="密码" name="password" value="" required/>
+		</div>
+		<div class="form-group checkbox">
+			<label>
+				<input type="checkbox" name="auto" value="" />
+				自动登录
+			</label>
+		</div>
+		<div class="form-group alert">...</div>
+		<div class="form-group">
+			<button type="button" id="login" class="form-control btn btn-primary">登录</button>
+			<button type="button" id="logout" class="form-control btn btn-primary">注销</button>
+		</div>
+	</form>
+	<script src="main.js"></script>
+</body>
+</html>
